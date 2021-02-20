@@ -1,0 +1,120 @@
+<html>
+
+	<head>
+		<title>Clicking game</title>
+		<link rel="icon" href="icon.png">
+	</head>
+	<body>
+	
+		<div class="center2">
+			<p style="color:red;border: 3px solid red;padding: 20px;font-size:35;background-color:black;"><b>Clicking game<br></b></p>
+		</div>
+		<img src="b0.png" width="50%" height="auto" class="center">
+		<br>	
+		<div class="center2">
+			<p style="color:red;border: 3px solid red;padding: 20px;background-color:black;"><b>An early-access clicking game prototype.<br></b>
+			<br>Goal is to get a high score or combo.<br>
+			Move cursor on circles and press "W".<br>
+			Game speed increases over time, game is infinite.<br>
+			To gain a high score, holding a combo is essential, as it gives the player exponentially more score per click as combo grows.<br>
+			This game was made using the Unity game engine and C#.
+			<br>Currently the game is in its early development stage, this means that all builds are experimental and may be buggy.
+			<br>At this moment the gameplay is limited in functionality.
+			<br><br>You can download the game for free.</p>
+			
+			
+			<div style="color:red;border: 3px solid red;background-color:black;margin: auto;width: 100%;padding: 10px;">
+			<p style="color:red;border: 3px solid red;padding: 10px;background-color:black;"><b>Choose your platform<br></b>
+			<a href="https://drive.google.com/file/d/1DzsKJIJvL_oBfdVxuWXrNN-Fma44Ep46/view" style="color:red;" onclick="gtag('event', 'click', {'event_category' : 'button', 'event_label' : 'Download'});">
+			<img class="a" src="win.png" width="10%" height="auto" onmouseover="hover(this);" onmouseout="unhover(this);"></a></p>
+			
+			
+			
+			
+			
+			
+			<p style="color:red;border: 3px solid red;padding: 10px;background-color:black;"><b>MINIMUM SYSTEM REQUIREMENTS:</b>
+			<br><br>
+			<table id="t01">
+			  <tr>
+				<th style="width:128px">CPU</th>
+				<td>Intel Core i3-6100</td> 
+			  </tr>
+			  <tr>
+				<th style="width:128px">GPU</th>
+				<td>GeForce GT 340</td>
+			  </tr>
+			  <tr>
+				<th style="width:128px">RAM</th>
+				<td>2GB</td>
+			  </tr>
+			  <tr>
+				<th style="width:128px">DISK SPACE</th>
+				<td>60MB</td>
+			  </tr>
+			  <tr>
+				<th style="width:128px">OS</th>
+				<td>Windows</td>
+			  </tr>
+			</table>
+			</p>
+			
+			<div style="background-image:url('b1.gif');background-size:100%;width:50%;">
+				<p style="color:red;border: 3px solid red;padding: 10px;"><b style="font-size:24px;">Developers<br><br></b>
+				Programmer:<br><b style="font-size:18px;">Lasse</b><br><br>
+				Contact: <a href="mailto:Lassethorlepik@gmail.com" style="color:red;">lassethorlepik@gmail.com</a>
+				</p>
+			</div>
+		</div>
+	</body>
+	<style>
+		body {background-image:url("b2.png");
+		}
+		.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border: 3px solid red;
+		}
+		.center2 {
+		margin: auto;
+		width: 60%;
+		padding: 10px;
+		}
+		table {
+		width:100%;
+		color:red;
+		}
+		table, th, td {
+		border: 1px solid red;
+		border-collapse: collapse;
+		}
+		th, td {
+		padding: 15px;
+		text-align: left;
+		}
+		#t01 tr {
+		background-color: #212121;
+		}
+		#t01 th {
+		background-color: #830F0F;
+		color: black;
+		}
+	</style>
+	<script>
+	function hover(element) {
+		  element.setAttribute('src', 'win2.png');
+		}
+
+		function unhover(element) {
+		  element.setAttribute('src', 'win.png');
+		}
+					function hover2(element) {
+		  element.setAttribute('src', 'apple2.png');
+		}
+
+		function unhover2(element) {
+		  element.setAttribute('src', 'apple.png');
+		}
+	</script>
+</html>
